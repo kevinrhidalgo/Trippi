@@ -1,23 +1,22 @@
 /* CSS for the nav bar */
 body{
-    background-color: #dddddd;
+    background-image: url(http://reneeroaming.com/wp-content/uploads/2020/08/Best-National-Park-Road-Trip-Itinerary-Grand-Teton-National-Park-Van-Life-819x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 header{
     display: flex;
     flex-direction: row;
     background-color: white;
     margin: -10px;
-    height:90px;
+    height:80px;
 }
 .navTitle{
     font-family: 'Dancing Script', cursive;
     margin-right:60px;
     font-size:60px;
     color:rgb(61, 131, 61);
-    text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
+    
 }
 .navTop{
 margin-right:200px;
