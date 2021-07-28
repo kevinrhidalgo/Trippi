@@ -73,13 +73,17 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.disclaimer{
+   font-weight: bolder;
+   text-decoration: underline;
+}
 #imgLink{
 height: 80px;
 width:180px;
 }
 #imgLink2{
     height: 130px;
-    width:170px;
+    width:160px;
     }
 
 #linkImg{
