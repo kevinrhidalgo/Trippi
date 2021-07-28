@@ -1,9 +1,11 @@
 /* CSS for the nav bar */
-body{
+.bgImage{
     background-image: url(http://reneeroaming.com/wp-content/uploads/2020/08/Best-National-Park-Road-Trip-Itinerary-Grand-Teton-National-Park-Van-Life-819x1024.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     overflow-y: hidden;
+    height:1300px;
+
 }
 header{
     display: flex;
@@ -41,4 +43,15 @@ a{
                           1px 1px 0 #000,
                          1px -1px 0 #000,
                         -1px -1px 0 #000;
+}
+
+
+
+/* CSS for the footer of the page */
+footer{
+    background-color:#222222;
+    height: 400px;
+    width:  120%;
+    margin: -10px;
+    bottom: 0;
 }
