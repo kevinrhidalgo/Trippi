@@ -38,12 +38,12 @@ a{
 .bgQuote{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 80px;
-    color:#fffaf1;
+    color:#222222;
     transform: translate(10%, 50%);
-    text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
+    text-shadow: -1px 1px 0 #fffaf1,
+                          1px 1px 0 #fffaf1,
+                         1px -1px 0 #fffaf1,
+                        -1px -1px 0 #fffaf1;
 }
 
 
@@ -72,6 +72,7 @@ footer{
 .mobileApp{
     display: flex;
     flex-direction: column;
+    margin-bottom: -20px;
 }
 .disclaimer{
    font-weight: bolder;
@@ -99,7 +100,7 @@ width:180px;
 .footer2nd{
 display: flex;
 flex-direction: row;
-margin-top: 100px;
+margin-top: 50px;
 }
 .footerHalfTwo{
 background-color: #d4d4d4;
@@ -129,5 +130,6 @@ flex-direction: row;
     font-size:40px;
     color:rgb(61, 131, 61);  
     margin-right: 600px;
-    margin-left: 30px; 
+    margin-left: 40px; 
+    margin-top: 0px;
 }
