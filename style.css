@@ -5,6 +5,7 @@
     background-size: 100%;
     overflow-y: hidden;
     height:1300px;
+    margin-bottom: 15px;
 
 }
 header{
@@ -24,7 +25,7 @@ header{
 }
 .navTop{
 margin-right:200px;
-transform: translate(50%,20%);
+transform: translate(150%,20%);
 }
 .navTop a{
     color:gray;
@@ -49,9 +50,46 @@ a{
 
 /* CSS for the footer of the page */
 footer{
-    background-color:#222222;
-    height: 400px;
-    width:  120%;
     margin: -10px;
     bottom: 0;
+}
+.footerHalfs{
+    display: flex;
+    flex-direction: column;
+}
+.footerHalfOne{
+    background-color:red;
+    height: 300px;
+}
+.footer2nd{
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+
+}
+.footerHalfTwo{
+background-color: #222222;
+border: 2px solid white;
+height:300px;
+display: flex;
+flex-direction: row;
+}
+.footerHalfTwo p{
+    color:gray;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerTerms{
+    display: flex;
+    flex-direction: row;
+}
+.footerTerms p{
+    margin-right: 40px;
+}
+.navTitleFooter{
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+    color:rgb(61, 131, 61);  
+    margin-right: 600px;
+    margin-left: 20px; 
 }
