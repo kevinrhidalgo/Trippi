@@ -1,3 +1,4 @@
+/* CSS FOR THE NAV BAR*/
 header{
     display: flex;
     flex-direction: row;
@@ -28,8 +29,17 @@ header{
 a{
         text-decoration: none;
 }
-
-
+/*CSS FOR THE BODY OF THE SOTRY PAGE*/
+.pageTwoBody{
+    background-color:red;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    margin-bottom: -5px;
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 800px;
+}
 
 /*CSS FOR THE FOOTER */
 footer{
