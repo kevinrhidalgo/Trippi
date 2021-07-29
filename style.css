@@ -20,8 +20,11 @@ header{
     font-family: 'Dancing Script', cursive;
     margin-right:60px;
     font-size:60px;
-    color:rgb(61, 131, 61);
+    
     margin-left: 20px;  
+}
+.navTitle a{
+    color:rgb(61, 131, 61);
 }
 .navTop{
 margin-right:200px;
@@ -38,8 +41,8 @@ a{
 .bgQuote{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 80px;
-    color:#222222;
-    transform: translate(10%, 50%);
+    color:tomato;
+    transform: translate(5%, 120%);
     text-shadow: -1px 1px 0 #fffaf1,
                           1px 1px 0 #fffaf1,
                          1px -1px 0 #fffaf1,
