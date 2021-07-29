@@ -248,12 +248,12 @@ flex-direction: row;
     font-family: 'Dancing Script', cursive;
     font-size:40px;
     color:rgb(61, 131, 61);  
-    margin-right: 600px;
+    margin-right: 500px;
     margin-left: 40px; 
     margin-top: 0px;
 }
 .myName{
     color:#222222;
-    transform: translate(-510%,50%);
+    transform: translate(-450%,50%);
     font-family:Tahoma;
 }
