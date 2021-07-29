@@ -1,0 +1,123 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: -10px;
+    height:80px;
+    border: 2px solid #fffaf1;
+}
+.navTitle2{
+    font-family: 'Dancing Script';
+    margin-right:60px;
+    font-size:60px;
+    
+    margin-left: 20px;  
+}
+.navTitle2 a{
+    color:rgb(61, 131, 61);
+}
+.navTop{
+    margin-right:200px;
+    transform: translate(150%,20%);
+    }
+.navTop a{
+        color:gray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+a{
+        text-decoration: none;
+}
+
+
+
+/*CSS FOR THE FOOTER */
+footer{
+    margin: -10px;
+    bottom: 0;
+}
+.footerHalfs{
+    display: flex;
+    flex-direction: column;
+}
+.halfFirst{
+    display: flex;
+    flex-direction: row;
+    background-color:#d4d4d4;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top:50px;
+    padding-left: 100px;
+}
+.footerHalfOne{
+    background-color:#d4d4d4;
+    height: 400px;
+}
+.mobileApp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+.disclaimer{
+   font-weight: bolder;
+   text-decoration: underline;
+}
+#imgLink{
+height: 80px;
+width:180px;
+}
+#imgLink2{
+    height: 130px;
+    width:160px;
+    }
+
+#linkImg{
+    width: 30px;
+    height:30px; 
+    margin:10px;
+}
+.contactList{
+    transform: translate(10%,10%);
+}
+
+
+.footer2nd{
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+}
+.footerHalfTwo{
+background-color: #d4d4d4;
+border: 1px solid #222222;
+height:200px;
+display: flex;
+flex-direction: row;
+}
+.footerHalfTwo p{
+    color:gray;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerTerms{
+    display: flex;
+    flex-direction: row;
+}
+.footerTerms p{
+    margin-right: 40px;
+    color:#222222;
+}
+#copyright{
+    color:#222222;
+}
+.navTitleFooter{
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+    color:rgb(61, 131, 61);  
+    margin-right: 600px;
+    margin-left: 40px; 
+    margin-top: 0px;
+}
+.myName{
+    color:#222222;
+    transform: translate(-510%,50%);
+    font-family:Tahoma;
+}

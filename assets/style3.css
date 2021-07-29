@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: -10px;
+    height:80px;
+    border: 2px solid #fffaf1;
+}
+.navTitle{
+    font-family: 'Dancing Script';
+    margin-right:60px;
+    font-size:60px;
+    
+    margin-left: 20px;  
+}
+.navTitle a{
+    color:rgb(61, 131, 61);
+}
+.navTop{
+    margin-right:200px;
+    transform: translate(150%,20%);
+    }
+.navTop a{
+        color:gray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+a{
+        text-decoration: none;
+}
