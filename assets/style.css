@@ -1,14 +1,13 @@
-body {
+html,body{ 
+    width: 100%;
     overflow-x: hidden;
 }
 /* CSS for the nav bar of each page */
 .bgImage{
     background-image: url(http://reneeroaming.com/wp-content/uploads/2020/08/Best-National-Park-Road-Trip-Itinerary-Grand-Teton-National-Park-Van-Life-819x1024.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
     overflow-y: hidden;
-    height:1300px;
-    margin-bottom: 15px;
+    margin-bottom: -5px;
     overflow-x: hidden;
 }
 header{
@@ -54,7 +53,7 @@ a{
 .bgQuote{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 80px;
-    color:tomato;
+    color:yellow;
     transform: translate(5%, 120%);
     text-shadow: -1px 1px 0 #fffaf1,
                           1px 1px 0 #fffaf1,
@@ -65,20 +64,59 @@ a{
 /* CSS middle of the homepage of the site */
 .middleSection{
    display: flex;
-   flex-direction: column; 
+   flex-direction: column;
+   margin-top: -40px;
 }
 .midofSec{
     background-color:white ;
     width: 100%;
-    height:300px;
+    height:200px;
     border: 1px solid #222222;
+    transform: translate(-0.5%,10%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.firstMidSec{
+display: flex;
+flex-direction:row ;
+justify-content: center;
+}
+.firstMidSec img{
+    width:250px;
+    height:170px;
+    border-radius: 5%;
+    transform: translate(10%,10%);
+}
+#emailUs{
+    color:black;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px ;
+    display: flex;
+    justify-content: center;
+}
+
+#emailUs p{
+    color:#222222;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.midDesc{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* CSS for the footer of the page */
 footer{
-    margin: -10px;
-    bottom: 0;
+    margin-top: -20px;
+    margin-right: -10px;
+    margin-left: -10px;
+    bottom: 10px;
+    overflow:hidden;
 }
 .footerHalfs{
     display: flex;
@@ -135,6 +173,7 @@ border: 1px solid #222222;
 height:200px;
 display: flex;
 flex-direction: row;
+
 }
 .footerHalfTwo p{
     color:gray;
