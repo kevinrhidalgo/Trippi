@@ -109,7 +109,40 @@ justify-content: center;
     flex-direction: column;
 }
 
-
+.secondMidSec{
+  background-image: url('https://www.roadunraveled.com/wp-content/uploads/2019/11/oregon-coast-cannon-beach-ecola.jpg');  
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 70%;
+  height:200px;
+}
+.secondMidSec h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.secondMidSec a{
+    margin-left: 15px;
+}
+#pageLink{
+    color:#222222;
+    background-color:white;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+    justify-content: center;
+}
+#pageLink p{
+    color:#222222;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
 /* CSS for the footer of the page */
 footer{
     margin-top: -20px;
