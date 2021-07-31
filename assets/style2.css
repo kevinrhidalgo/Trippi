@@ -56,8 +56,11 @@ a{
 
 /*CSS FOR THE FOOTER */
 footer{
-    margin: -10px;
-    bottom: 0;
+    margin-top:552px;
+    margin-right: -10px;
+    margin-left: -10px;
+    bottom: 10px;
+    overflow:hidden;
 }
 .footerHalfs{
     display: flex;
@@ -114,6 +117,7 @@ border: 1px solid #222222;
 height:200px;
 display: flex;
 flex-direction: row;
+
 }
 .footerHalfTwo p{
     color:gray;
@@ -135,7 +139,7 @@ flex-direction: row;
     font-family: 'Dancing Script', cursive;
     font-size:40px;
     color:rgb(61, 131, 61);  
-    margin-right: 600px;
+    margin-right: 500px;
     margin-left: 40px; 
     margin-top: 0px;
 }
