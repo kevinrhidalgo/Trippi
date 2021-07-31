@@ -260,7 +260,11 @@ flex-direction: row;
 .navTitleFooter{
     font-family: 'Dancing Script', cursive;
     font-size:40px;
-    color:rgb(61, 131, 61);  
+    color:white;
+    text-shadow: -1px 1px 0 tomato,
+                          1px 1px 0 tomato,
+                         1px -1px 0 tomato,
+                        -1px -1px 0 tomato; 
     margin-right: 500px;
     margin-left: 40px; 
     margin-top: 0px;
