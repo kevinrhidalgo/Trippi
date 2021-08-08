@@ -31,11 +31,11 @@ header{
     margin-top: 10px;  
 }
 .navTitle a{
-    color:white;
-    text-shadow: -1px 1px 0 tomato,
-                          1px 1px 0 tomato,
-                         1px -1px 0 tomato,
-                        -1px -1px 0 tomato;
+    color:tomato;
+    text-shadow: -1px 1px 0 beige,
+                          1px 1px 0 black,
+                         1px -1px 0 black,
+                        -1px -1px 0 black;
 }
 .navTop{
 margin-right:200px;
@@ -260,11 +260,11 @@ flex-direction: row;
 .navTitleFooter{
     font-family: 'Dancing Script', cursive;
     font-size:40px;
-    color:white;
-    text-shadow: -1px 1px 0 tomato,
-                          1px 1px 0 tomato,
-                         1px -1px 0 tomato,
-                        -1px -1px 0 tomato; 
+    color:tomato;
+    text-shadow: -1px 1px 0 beige,
+                1px 1px 0 black,
+                1px -1px 0 black,
+                -1px -1px 0 black;
     margin-right: 500px;
     margin-left: 40px; 
     margin-top: 0px;

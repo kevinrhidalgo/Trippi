@@ -22,11 +22,11 @@ header{
     margin-top: 10px;   
 }
 .navTitle a{
-    color:white;
-    text-shadow: -1px 1px 0 tomato,
-                          1px 1px 0 tomato,
-                         1px -1px 0 tomato,
-                        -1px -1px 0 tomato;
+    color:tomato;
+    text-shadow: -1px 1px 0 beige,
+                          1px 1px 0 black,
+                         1px -1px 0 black,
+                        -1px -1px 0 black;
 }
 .navTop{
     margin-right:200px;
