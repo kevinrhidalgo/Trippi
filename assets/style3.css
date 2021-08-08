@@ -64,6 +64,12 @@ body {
   box-sizing: border-box;
   overflow: auto;
 }
+#sidebar p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  color:olive;
+}
 
 #map {
   flex-basis: 0;
