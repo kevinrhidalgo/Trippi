@@ -1,3 +1,6 @@
+body{
+  background-color: #fffaf1;
+}
 header{
     display: flex;
     flex-direction: row;
