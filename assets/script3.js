@@ -34,6 +34,7 @@ function initMap() {
           { location: "Nashville, TN" },
           { location: "Houston, TX" },
           { location: "Denver, CO" },
+          { location: "Seattle, WA" },
         ],
         travelMode: google.maps.TravelMode.DRIVING,
         avoidTolls: true,
