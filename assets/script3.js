@@ -31,6 +31,8 @@ function initMap() {
         destination: destination,
         waypoints: [
           { location: "Orlando, FL" },
+          { location: "Nashville, TN" },
+          { location: "Houston, TX" },
           { location: "Denver, CO" },
         ],
         travelMode: google.maps.TravelMode.DRIVING,
