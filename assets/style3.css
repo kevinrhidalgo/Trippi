@@ -70,3 +70,10 @@ body {
   flex-grow: 4;
   height: 100%;
 }
+.mapInstructions{
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  justify-content: center;
+  color:olive;
+  font-size: 20px;
+}
