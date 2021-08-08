@@ -6,8 +6,8 @@ header{
     flex-direction: row;
     background-color: white;
     margin: -10px;
-    height:80px;
-    border: 2px solid #fffaf1;
+    height:75px;
+    border: 2px solid gray;
 }
 #mapLogo{
     width: 50px;
