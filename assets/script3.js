@@ -61,3 +61,6 @@ function initMap() {
     total = total / 1000;
     document.getElementById("total").innerHTML = total + " km";
   }
+
+
+  

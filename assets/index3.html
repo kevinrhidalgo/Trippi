@@ -57,10 +57,24 @@
    
    <div id="container">
     <div id="map"></div>
+    <div class="sideSection">
     <div id="sidebar">
       <p>Total Distance: <span id="total"></span></p>
       <div id="panel"></div>
     </div>
+    <div>
+    <div id="myDIV" class="header">
+      <h2 style="margin:5px">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Visit the Planetarium</li>
+      <li class="checked">Pay bills</li>
+    </ul>
+  </div>
+  </div>
   </div>
 
   <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
@@ -70,6 +84,7 @@
   ></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="./script3.js"></script>
+<script src="./scriptThree.js"></script>
 </body>
 
 
