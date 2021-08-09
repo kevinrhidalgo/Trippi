@@ -41,7 +41,6 @@ a{
         text-decoration: none;
 }
 
-/* css for the todo list */
 html,
 body {
   height: 100%;
@@ -86,8 +85,7 @@ body {
 }
 
 
-
-
+/* css for the todo list */
 ul {
   margin: 0;
   padding: 0;
@@ -105,6 +103,8 @@ ul li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 21px;
 }
 
 ul li:nth-child(odd) {
