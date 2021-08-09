@@ -147,7 +147,7 @@ ul li.checked::before {
 }
 
 .header {
-  background-color: #f44336;
+  background-color: #9addfb;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -172,14 +172,16 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: #222222;
+  color: white;
   float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
 }
 
 .addBtn:hover {
@@ -188,4 +190,10 @@ input {
 .sideSection{
   display: flex;
   flex-direction: column;
+}
+
+.header h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #222222;
 }
