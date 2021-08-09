@@ -185,6 +185,7 @@ input {
   border-radius: 0;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
+  margin: 20px;
 }
 
 .addBtn:hover {
