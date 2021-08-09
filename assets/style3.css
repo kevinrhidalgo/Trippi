@@ -41,6 +41,7 @@ a{
         text-decoration: none;
 }
 
+/* css for the side section */
 html,
 body {
   height: 100%;
@@ -74,7 +75,6 @@ body {
   flex-basis: 0;
   flex-grow: 4;
   height: 100%;
-
 }
 .mapInstructions{
   font-family: 'Amatic SC', cursive;
@@ -83,9 +83,12 @@ body {
   color:olive;
   font-size: 20px;
 }
-
+.sideSection{
+  width:32%;
+}
 
 /* css for the todo list */
+
 ul {
   margin: 0;
   padding: 0;
