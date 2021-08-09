@@ -57,24 +57,26 @@
    
    <div id="container">
     <div id="map"></div>
+
     <div class="sideSection">
+      <div>
+        <div id="myDIV" class="header">
+          <h2 style="margin:5px">My To Do List</h2>
+          <input type="text" id="myInput" placeholder="Title...">
+          <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+    
+        <ul id="myUL">
+          <li>Visit the Planetarium</li>
+          <li class="checked">Take Selfies by the grand river</li>
+        </ul>
+      </div>
     <div id="sidebar">
       <p>Total Distance: <span id="total"></span></p>
       <div id="panel"></div>
     </div>
-    <div>
-    <div id="myDIV" class="header">
-      <h2 style="margin:5px">My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+  </div>
 
-    <ul id="myUL">
-      <li>Visit the Planetarium</li>
-      <li class="checked">Pay bills</li>
-    </ul>
-  </div>
-  </div>
   </div>
 
   <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
