@@ -63,6 +63,7 @@ body {
   box-sizing: border-box;
   overflow: auto;
   border: 1px solid gray;
+  margin-bottom: -40px;
 }
 #sidebar p{
   font-family: 'Amatic SC', cursive;
