@@ -15,9 +15,9 @@ https://kevinrhidalgo.github.io/SuperGroup-ProjectOne-/
 # Tools Used
 1. Google Maps API
 2. Google CSS Framework
-3. Collect Api (specifically gas api)
+3. Open weather Api
 4. VS code
 5. Github
-6. Foundation Framework
+
 
 By: Kevin Hidalgo 
