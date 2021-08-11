@@ -6,7 +6,7 @@
 <img width="1083" alt="Screen Shot 2021-08-11 at 1 38 43 AM" src="https://user-images.githubusercontent.com/78196245/128975556-33297cdb-3530-45fa-9db4-161673b1cd4b.png">
 
 # Webpage URL:
-https://kevinrhidalgo.github.io/SuperGroup-ProjectOne-/
+https://kevinrhidalgo.github.io/Trippi/
 
 # Tools Used
 1. Google Maps API
