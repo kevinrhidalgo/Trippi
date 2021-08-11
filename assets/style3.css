@@ -163,12 +163,13 @@ ul li.checked::before {
   font-family: 'Amatic SC', cursive;
   font-size: 10px;
  padding: 10px;
-  background-color: #b7e2fc;
+  background-color: #00471b;
   line-height: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   border: 1px solid gray;
+  color:white;
 }
 .btn {
   border: white solid;
