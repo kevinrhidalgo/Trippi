@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Using Font Awesome CDN for icons not sourced from openweathermap API -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 
     <title>Trippi!</title>
 </head>
@@ -60,10 +63,25 @@
 
     <div class="sideSection">
 
+    
+
       <div id="sidebar">
         <p>Total Distance: <span id="total"></span></p>
         <div id="panel"></div>
       </div>
+
+      <div class='insideBody'>
+        <div class="weatherSec1">
+        <h1 class="display-3">Current Location Weather</h1>
+        <h2 id='city'></h2>
+        <button type="button" class="btn btn-light btn-sm" id='fTemp' data-toggle="tooltip" data-placement="right" title="Click to convert"></button>
+        </div>
+        <div class="weatherSec2">
+        <h3 id='weatherType'></h3>
+        <h3 id='windSpeed'></h3>
+        <p id='data'></p>
+    </div>
+    </div>
 
       <div>
         <div id="myDIV" class="header">
@@ -90,6 +108,7 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="./script3.js"></script>
 <script src="./scriptThree.js"></script>
+<script src="scriptTree.js"></script>
 </body>
 
 
